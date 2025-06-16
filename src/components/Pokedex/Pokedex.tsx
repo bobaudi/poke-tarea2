@@ -80,8 +80,8 @@ function Pokedex() {
           {/*Pantalla Derecha*/}
           <div className='poke-right'>
             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-              <Tab label="Item One" {...a11yProps(0)} />
-              <Tab label="Item Two" {...a11yProps(1)} />
+              <Tab label="Pokedex" {...a11yProps(0)} />
+              <Tab label="Tabla" {...a11yProps(1)} />
             </Tabs>
 
             <CustomTabPanel value={value} index={0}>
